@@ -19,7 +19,7 @@ You can define Big blue button secret key and server url in two ways.
 1. Define in .env file
 
  ```BBB_SECURITY_SALT =bbb_secret_key```  
- ```BBB_SERVER_BASE_URL=https://example.com/bigbluebutton/``` 
+ ```BBB_SERVER_BASE_URL=https://example.com/bigbluebutton/```
  
  2. Define in config/bbb.php
  
