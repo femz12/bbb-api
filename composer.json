@@ -21,6 +21,13 @@
         "laravel/framework": "^9.23",
         "laravel/pint": "^1.1"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DavidO\\BBBApi\\BigbluebuttonProviderService"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
