@@ -10,8 +10,7 @@ class BigbluebuttonProviderService extends ServiceProvider
 {
     public function boot()
     {
-        //Merge Config
-        $this->publishes([__DIR__.'/config/bbb.php' => config_path('bbb.php')], 'bbb');
+        $this->publishes([__DIR__.'/config/bbb.php' => config_path('bbb.php')], 'config');
     }
 
     public function register()

@@ -27,3 +27,11 @@ You can define Big blue button secret key and server url in two ways.
  'BBB_SECURITY_SALT' => 'bbb_secret_key',
  'BBB_SERVER_BASE_URL' => 'https://example.com/bigbluebutton/',
 ```
+
+ 3. You can publish the vendor files with
+ 
+```
+php artisan vendor:publish --provider="DavidO\BBBApi\BigbluebuttonProviderService" --tag="config"
+```
+
+Note this will create the file bbb.php in the config folder
