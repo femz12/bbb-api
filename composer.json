@@ -1,0 +1,31 @@
+{
+    "name": "davido/bbb-api",
+    "description": "This is to integrate bigbluebuton api to laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Ayodele Olufemi",
+            "email": "femz12@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "DavidO\\BBBApi\\": "src/Studio"
+        }
+      },    
+    "require": {
+        "php": "^8.0.2",
+        "bigbluebutton/bigbluebutton-api-php": "^2.1",
+        "laravel/framework": "^9.23",
+        "laravel/pint": "^1.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+      "sort-packages": true,
+      "preferred-install": "dist",
+      "optimize-autoloader": true
+    }
+}
