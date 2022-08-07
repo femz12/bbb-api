@@ -25,7 +25,11 @@
         "laravel": {
             "providers": [
                 "DavidO\\BBBApi\\BigbluebuttonProviderService"
-            ]
+            ],
+            "aliases": {
+                "Meeting": "DavidO\\BBBApi\\BigbluebuttonMeeting"
+
+            }
         }
     },
     "minimum-stability": "dev",
