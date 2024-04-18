@@ -14,11 +14,11 @@
         "psr-4": {
           "DavidO\\BBBApi\\": "src/Studio"
         }
-      },    
+      },
     "require": {
         "php": "^8.0.2",
         "bigbluebutton/bigbluebutton-api-php": "^2.1",
-        "laravel/framework": "^9.23",
+        "laravel/framework": "^9.23 | ^10.0",
         "laravel/pint": "^1.1"
     },
     "extra": {
